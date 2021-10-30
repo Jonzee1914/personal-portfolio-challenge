@@ -58,14 +58,14 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2.25vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
-    border-radius: 15px;
+    border-radius:   5px 20px 5px;
     text-shadow: none;
 }
 
@@ -125,16 +125,23 @@ section {
     color: var(--secondary-color);
 }
 
-.intro {
+.welcome {
+    padding: 15px 0 5px 0;
+    text-align: center;
+}
+
+.welcome img {
+    max-width: 33%;
+}
+
+.about {
     flex: 1 30%;
 }
-.intro p {
+.about p {
     line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
+    color: var(--secondary-color);
+    width: 100%;
     font-size: 20px;
-    margin: 0 auto;
-    text-decoration: center;
 }
 
 .work h3, .about h3, .contact h3 {
@@ -147,18 +154,18 @@ section {
     width: 200px;
 }
 
-.project-titles {
-    position: relative;
-    bottom: 30px;
-    right: 20px;
-}
-
 .work h3 {
     vertical-align: top;
 }
 
 .about h3, .contact h3 {
     border-right: 5px solid #39a6b2;
+}
+
+.project-titles {
+    position: relative;
+    bottom: 30px;
+    right: 20px;
 }
 
 .work-info {
@@ -205,17 +212,16 @@ section {
     font-size: 18px;
 }
 
-
 .run-buddy {
     flex: 100%;
 }
 
 .run-buddy img {
-    max-width: 800px;
+    max-width: 100%;
 }
 
 .robot-gladiators img, .code-refactor img {
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .robot-gladiators, .code-refactor {
@@ -233,27 +239,6 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-}
-
-.welcome {
-    padding: 15px 0 5px 0;
-    text-align: center;
-}
-
-.welcome img {
-    max-width: 33%;
-
-}
-
-
-.section-title {
-    font-size: 48px;
-    color: var(--secondary-color);
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
 }
 
 .flex-row {

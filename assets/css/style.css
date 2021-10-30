@@ -141,10 +141,28 @@ section {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
-
+    vertical-align: top;
     text-align: right;
     padding-right: 15px;
     width: 200px;
+}
+
+.project-titles {
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.work h3 {
+    vertical-align: top;
+}
+
+.about h3, .contact h3 {
+    border-right: 5px solid #39a6b2;
+}
+
+.work-info {
+    border-left: 5px solid #39a6b2;
 }
 
 .work-info, .about-info, .contact-info {
@@ -153,7 +171,6 @@ section {
     flex-wrap: wrap;
     align-items: center;
     padding-left: 25px;
-    border-left: 5px solid #39a6b2;
 }
 
 .work-text, .about-text, .contact-text {
@@ -162,6 +179,15 @@ section {
     flex-direction: row;
     justify-content: space-evenly;
     flex: 12;
+}
+
+.work-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+    border-radius:  5px 20px 5px;
+    background-color: var(--primary-color);
+    padding: 5px;
 }
 
 .contact address {
@@ -179,25 +205,24 @@ section {
     font-size: 18px;
 }
 
-.work-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: var(--secondary-color);
-    border-radius:  5px 20px 5px;
-    background-color: var(--primary-color);
-    padding: 5px;
-}
 
-.run-buddy img {
+.run-buddy {
     flex: 100%;
 }
 
-.robot-gladiators img {
-    flex: 50%;
+.run-buddy img {
+    max-width: 800px;
 }
 
-.code-refactor img {
+.robot-gladiators img, .code-refactor img {
+    max-width: 400px;
+}
+
+.robot-gladiators, .code-refactor {
     flex: 50%;
+    width: 300px;
+    padding: 10px;
+    
 }
 
 .work, .about, .contact {
@@ -208,10 +233,6 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-}
-
-.work img {
-    max-width: 800px;
 }
 
 .welcome {
@@ -234,23 +255,6 @@ section {
     margin: 0 auto 35px auto;
     width: 50%;
 }
- 
-.primary-border {
-    border-color: var(--primary-color);
-}
-  
-.secondary-border {
-    border-color: var(--tertiary-color);
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 
 .flex-row {
     display: flex;
@@ -311,59 +315,31 @@ section {
         padding: 30px 15px;
     }
     
-    .step h3 {
+    .work h3, .about h3, .contact h3 {
         flex: 1 100%;
         text-align: center;
         border-bottom: 5px solid #39a6b2;
         border-right: none;
     }
 
-    .step-info {
+    .work-info {
+        border-left: none;
+    }
+
+    .work-info, .about-info, .contact-info {
         flex: 2 100%;
         text-align: center;
         justify-content: center;
     }
 
-    /* .step-img {
+    .work img {
         flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
         margin-bottom: 15px;
-    } */
+    }
 
-    .step-text {
+    .work-text, .about-text, .contact-text {
         flex: 100%;  
     }
-  }
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-
-    .hero-form button {
-        width: 100%;
-    }
-    
-    .section-title {
-        width: 95%;
-    }
-    
-    .intro p {
-        width: 100%;
-    }
-    
-    .trainer {
-        flex: 0 100%;
-    }
-    
-    .contact-info {
-        text-align: center;
-    }
-    
-    .contact-info > * {
-        flex: 0 100%;
-    }
-
-    .contact-form {
-        order: 3;
-      }
   }

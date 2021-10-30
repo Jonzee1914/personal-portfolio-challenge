@@ -242,8 +242,14 @@ section {
     font-size: 26px;
     line-height: 1.5;
     color: var(--secondary-color);
+    border-radius:  5px 20px 5px;
+    background-color: var(--primary-color);
+    padding: 5px;
 }
- 
+.run-buddy {
+
+    flex-grow: 2;
+}
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -261,7 +267,7 @@ section {
 }
 
 .welcome img {
-    max-width: 50%;
+    max-width: 33%;
 
 }
 
@@ -502,12 +508,12 @@ section {
         justify-content: center;
     }
 
-    .step-img {
+    /* .step-img {
         flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
         margin-bottom: 15px;
-    }
+    } */
 
     .step-text {
         flex: 100%;  

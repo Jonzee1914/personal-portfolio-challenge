@@ -124,6 +124,7 @@ section {
     font-size: 36px;
     color: var(--secondary-color);
 }
+
 /*
  .hero-form {
     background-color: rgba(252, 225, 56, 0.8);
@@ -190,15 +191,10 @@ section {
     text-decoration: center;
 }
 
-.steps {
-    padding-top: 15px;  
-}
-
-.steps h3 {
+.step h3 {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
-    /* flex: 1 10%; */
     border-right: 5px solid #39a6b2;
     text-align: right;
     padding-right: 15px;
@@ -257,6 +253,18 @@ section {
     align-items: center;
     justify-content: space-between;
 }
+
+
+.welcome {
+    padding: 15px 0 5px 0;
+    text-align: center;
+}
+
+.welcome img {
+    max-width: 50%;
+
+}
+
 
 .section-title {
     font-size: 48px;
@@ -484,6 +492,8 @@ section {
     .step h3 {
         flex: 1 100%;
         text-align: center;
+        border-bottom: 5px solid #39a6b2;
+        border-right: none;
     }
 
     .step-info {

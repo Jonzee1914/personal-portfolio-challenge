@@ -11,13 +11,12 @@
 <body>
       <!-- navigation -->
   <header>
-    <img src="./assets/images/erikjonesname.png" alt="">
+    <a href="#my-pic">
+      <img src="./assets/images/erikjonesname.png" alt="">
+    </a>
     <nav> 
-        <!-- Unordered list element -->
         <ul> 
-            <!-- List item element -->
             <li>
-                <!-- Anchor element -->
                 <a href="#about-me">About Me</a>
             </li>
             <li>
@@ -32,7 +31,7 @@
   </header>
 
   <!-- hero/jumbotron -->
-  <section class="hero">
+  <section id="my-pic" class="hero">
     <div class="hero-cta">
     </div>
   </section>
@@ -48,7 +47,7 @@
         Me</h3>
       <div class="about-info">
         <div class="about-text">
-          <p>
+          <p id="work">
             I currently am a Member Experience Specialist, for a credit union in Central Florida. The ever changing face of the financial industry has motivated
             me to expand my horizons and embark on a path to being a full stack web developer. This portfolio and my bio is a little light right now, but check back in a few months
             when I have even more to say about my skills.
@@ -57,13 +56,14 @@
       </div>
     </div>
 
-    <div id="work" class="work">
-      <h3>Work</h3>
+    <div class="work">
+      <div class="work-title">
+        <h3>Work</h3>
+      </div>
       <div class="work-info">
         <div class="work-text">
-
           <div class="run-buddy">
-            <a href="https://jonzee1914.github.io/run-buddy/">
+            <a href="https://jonzee1914.github.io/run-buddy/" target="_blank">
               <img src="./assets/images/run-buddy.JPG" alt="a thumbnail of run buddy project">
             </a>
             <div class="project-titles">
@@ -74,7 +74,7 @@
           </div>
 
           <div class="robot-gladiators">
-            <a href="https://jonzee1914.github.io/robot-gladiators/">
+            <a href="https://jonzee1914.github.io/robot-gladiators/" target="_blank">
               <img src="./assets/images/robot-gladiators.jpg" alt="a thumbnail of robot gladiators project">
             </a>
             <div class="project-titles">
@@ -85,7 +85,7 @@
           </div>
 
           <div class="code-refactor">
-            <a href="https://jonzee1914.github.io/code-refactor/">
+            <a href="https://jonzee1914.github.io/code-refactor/" target="_blank">
               <img src="./assets/images/code-refactor.jpg" alt="a thumbnail of code refactoring project">
             </a>
             <div class="project-titles">

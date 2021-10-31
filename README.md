@@ -11,7 +11,7 @@ Create a portfolio site of work to showcase my skills and talents to employers l
 https://jonzee1914.github.io/personal-portfolio-challenge/
 
 ## Screen Shot
-
+![alt text](https://github.com/Jonzee1914/...?raw=true)
 
 ## Contribution
 Made with 😬😬😬 by Jonzee

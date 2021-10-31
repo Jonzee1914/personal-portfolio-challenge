@@ -29,7 +29,7 @@ header {
     background-attachment: fixed;
     z-index: 9999;
 }
-
+/* header section */
 header h1 {
     font-weight: bold;
     font-size: 54px;
@@ -68,7 +68,7 @@ header nav ul li a:hover {
     border-radius:   5px 20px 5px;
     text-shadow: none;
 }
-
+/* footer section */
 footer {
     background: var(--primary-color);
     width: 100%;
@@ -84,19 +84,11 @@ footer h2 {
     margin: 0;
 }
 
-footer div {
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: var(--secondary-color);
-}
-
 section {
     padding: 60px;
 }
 
+/* body portion begining with the hero */
 .hero {
     background-image: url("../images/me.jpg");
     background-size: contain;
@@ -119,6 +111,7 @@ section {
     line-height: 1.2;
 }
 
+/* welcome image */
 .welcome {
     padding: 15px 0 5px 0;
     text-align: center;
@@ -127,6 +120,8 @@ section {
 .welcome img {
     max-width: 33%;
 }
+
+/* Main Sections, about, work, and contact me */
 
 .about {
     flex: 1 30%;
@@ -141,7 +136,7 @@ section {
 
 .work-title {
     position: relative;
-    bottom: 400px;
+    bottom: 550px;
 }
 
 .work h3, .about h3, .contact h3 {
@@ -244,6 +239,19 @@ section {
     display: flex;
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1500px) {
+    .work-title {
+        position: relative;
+        bottom: 400PX;
+    }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1280px) {
+    .work-title {
+        position: relative;
+        bottom: 300PX;
+    }
   
 /* MEDIA QUERY FOR LARGE TABLETS AND SMALLER */
 @media screen and (max-width: 1024px) {
@@ -253,7 +261,7 @@ section {
     }
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY FOR ANCIENT DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
         position: relative;

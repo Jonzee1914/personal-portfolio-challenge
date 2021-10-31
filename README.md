@@ -8,7 +8,10 @@ Create a portfolio site of work to showcase my skills and talents to employers l
 * CSS
 
 ## Website
-tbd
+https://jonzee1914.github.io/personal-portfolio-challenge/
+
+## Screen Shot
+
 
 ## Contribution
 Made with 😬😬😬 by Jonzee

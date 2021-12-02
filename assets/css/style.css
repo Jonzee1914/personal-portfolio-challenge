@@ -210,13 +210,9 @@ section {
     filter: contrast(100%) brightness(100%);
 }
 
-.robot-gladiators img, .run-buddy img {
+.robot-gladiators img, .run-buddy img, .code-refactor img {
     max-width: 100%;
     filter: contrast(75%) brightness(75%);
-}
-
-.code-refactor img {
-    max-width: 100%;
 }
 
 .robot-gladiators img:hover, .code-refactor img:hover, .run-buddy img:hover {

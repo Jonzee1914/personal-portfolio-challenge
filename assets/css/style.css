@@ -256,22 +256,22 @@ section {
         position: relative;
         bottom: 400PX;
     }
-
+}
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 1280px) {
     .work-title {
         position: relative;
         bottom: 300PX;
     }
-  
+}
 /* MEDIA QUERY FOR LARGE TABLETS AND SMALLER */
 @media screen and (max-width: 1024px) {
     .work-title {
         position: relative;
         bottom: 250PX;
     }
-}
 
+}
 /* MEDIA QUERY FOR ANCIENT DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
@@ -367,9 +367,3 @@ section {
 
 }
   
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 980px) {
-
-
-}

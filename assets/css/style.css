@@ -197,29 +197,29 @@ section {
     color: var(--primary-color);
 }
 
-.eventAdvisor {
+.retro-rewind {
     flex: 100%;
 }
 
-.eventAdvisor img {
+.retro-rewind img {
     max-width: 100%;
     filter: contrast(75%) brightness(75%);
 }
 
-.eventAdvisor img:hover {
+.retro-rewind img:hover {
     filter: contrast(100%) brightness(100%);
 }
 
-.robot-gladiators img, .run-buddy img, .code-refactor img {
+.robot-gladiators img, .run-buddy img, .code-refactor img, .eventAdvisor img {
     max-width: 100%;
     filter: contrast(75%) brightness(75%);
 }
 
-.robot-gladiators img:hover, .code-refactor img:hover, .run-buddy img:hover {
+.robot-gladiators img:hover, .code-refactor img:hover, .run-buddy img:hover, .eventAdvisor img:hover {
     filter: contrast(100%) brightness(100%);
 }
 
-.robot-gladiators, .code-refactor, .run-buddy {
+.robot-gladiators, .code-refactor, .run-buddy, .eventAdvisor {
     flex: 50%;
     flex-shrink: 2;
     width: 300px;
